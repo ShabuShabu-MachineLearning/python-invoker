@@ -41,4 +41,3 @@ jspm_packages
 .gitignore
 .idea/
 node_modules/
-package.json
