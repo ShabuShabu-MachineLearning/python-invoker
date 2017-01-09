@@ -11,9 +11,4 @@ router.get('/', function(req, res, next) {
     res.send(hello);
 });
 
-/* sample API. */
-router.get('/api', function(req, res, next) {
-    python.callPythonScript(req, res);
-});
-
 module.exports = router;
